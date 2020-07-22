@@ -1,0 +1,129 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*Navbar*/
+header {
+    background-color: #87509c;
+}
+
+.menu-item {
+    color: #fff;
+}
+
+.menu-item:hover {
+    color: #17c2a4;
+}
+.line1, .line2, .line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+}
+
+.change .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .line2 {
+    opacity: 0;
+}
+
+.change .line3 {
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+/*End of Navbar*/
+
+/*Banner*/
+.btn-banner {
+    background-color: #eb7d4b;
+    margin-bottom: 30px;
+}
+/*End of Banner*/
+
+/*About*/
+#about {
+    background-color: #17c2a4;
+}
+
+.title-about {
+    letter-spacing: 1px;
+}
+
+.hr {
+    width: 100px;
+    margin: 0 auto;
+    
+}
+
+/*End of About*/
+
+/*Work*/
+#work {
+    background-color: #e7f1f8;
+}
+.position {
+    color: #30bae7;
+}
+
+.circle-icons {
+    background: #bdd1df;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+/*End of Work*/
+
+/*Our Portfolio*/
+#portfolio {
+    background-color: #ffdd99;
+}
+
+.btn-yellow {
+    background-color: #ebc985;
+}
+
+.btn-project {
+    background-color: #17c2a4;
+    border-bottom: 1px solid #14a58c;
+    font-size: 1rem;
+}
+/*End of Our Portfolio*/
+
+/*What People Says About Us*/
+#blog {
+    background-color: #d74680;
+}
+.hr-pink {
+    background-color: #b73c6d;
+    width: 100px;
+    border-bottom: #b73c6d solid 1px;
+}
+
+.text-yellow {
+    color: #fcd397;
+}
+/*End of What People Says About Us*/
+
+/*Get In Touch */
+#contact {
+    background-color: #3c5499;
+
+}
+
+.hr-blue {
+    border-bottom: 3px solid #273a71;
+}
+
+.s-media-network {
+    background-color: #344b8e;
+}
+
+.twitter {
+    color: #30bae7;
+}
+/*End of Get In Touch */
+
+
